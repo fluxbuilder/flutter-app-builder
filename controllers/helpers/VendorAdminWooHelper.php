@@ -1,5 +1,4 @@
 <?php
-require_once (ABSPATH . '/wp-load.php');
 
 class VendorAdminWooHelper
 {
@@ -18,7 +17,6 @@ class VendorAdminWooHelper
 
     protected function upload_image_from_mobile($image, $count, $user_id)
     {
-        require_once (ABSPATH . '/wp-load.php');
         require_once (ABSPATH . 'wp-admin' . '/includes/file.php');
         require_once (ABSPATH . 'wp-admin' . '/includes/image.php');
         $imgdata = $image;
