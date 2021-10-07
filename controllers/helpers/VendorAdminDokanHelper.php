@@ -1,5 +1,4 @@
 <?php
-require_once (ABSPATH . '/wp-load.php');
 class VendorAdminDokanHelper
 {
     public function sendError($code, $message, $statusCode)
